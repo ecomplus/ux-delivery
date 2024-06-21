@@ -23,7 +23,6 @@ const app = {
      * Start editing `routes/ecom/modules/calculate-shipping.js`
      */
     calculate_shipping:   { enabled: true },
-
     /**
      * Triggered to validate and apply discount value, must return discount and conditions.
      * Start editing `routes/ecom/modules/apply-discount.js`
