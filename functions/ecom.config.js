@@ -160,6 +160,30 @@ const app = {
       },
       hide: true
     },
+    order_options: {
+      schema: {
+        type: 'string',
+        title: 'Tipo de envio',
+        enum: [
+          'Entrega Agendada',
+          'Entrega Convencional',
+          'Entrega Expressa',
+          'Entrega B2B',
+          'Entrega Same Day',
+          'Entrega Next Day',
+          'Entrega Leve',
+          'Entrega Pesada',
+          'Entrega P2P',
+          'Entrega Redespacho',
+          'Cash On Delivery',
+          'Smart Label',
+          '3P Malha Direta',
+          'Entrega Transit Point'
+        ],
+        default: 'Entrega Expressa'
+      },
+      hide: false
+    },
     additional_price: {
       schema: {
         type: 'number',
