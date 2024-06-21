@@ -324,26 +324,10 @@ const app = {
       },
       hide: true
     },
-    ordernar: {
-      schema: {
-        title: 'Ordenar formas de envio',
-        type: 'string',
-        description: 'Escolha a ordem que as formas de envio sejam mostradas na loja',
-        enum: [
-          'Opcional',
-          'preco',
-          'prazo'
-        ],
-        default: 'preco'
-
-      },
-      hide: false
-    },
     use_kubic_weight: {
       schema: {
         title: 'Utilizar cotação cubagem',
         type: 'boolean',
-        description: 'Indicado apenas para produtos grandes. Acima de 36 cm de lado. A UX Delivery tem um cálculo falho para produtos maiores e mais de uma unidade por pedido',
         default: false
 
       },
